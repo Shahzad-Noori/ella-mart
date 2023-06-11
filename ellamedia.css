@@ -1,0 +1,178 @@
+@media screen and (max-width: 1024px) {
+    #main1 {
+        display: none;
+    }
+
+    #max1025 {
+        display: list-item;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content3 h1 {
+        font-size: 40px;
+
+    }
+
+    .in4 {
+        width: 50%;
+    }
+
+    #main8 {
+        height: auto;
+    }
+    #main10{
+        flex-wrap: wrap;
+        height: max-content;
+    }
+    .in10{
+        width: 45%;
+        margin: 2%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    #main6 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+
+    .slider2 {
+        width: 33%;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+    }
+
+    #main9 {
+        flex-wrap: wrap-reverse;
+    }
+
+    .in91,
+    .in92 {
+        width: 100%;
+    }
+
+    .main6 {
+        flex-wrap: wrap;
+    }
+
+    .slider3 {
+        width: 50%;
+        height: max-content;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .slider3 h4, .slider2 h4 {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+    #main3 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .img1inmain3 {
+        display: none;
+    }
+
+    .img2inmain3 {
+        display: flex;
+    }
+
+    #content3 h1 {
+        font-size: 25px;
+    }
+
+    #content3 p {
+        font-size: 12px;
+    }
+
+    .in4 {
+        width: 100%;
+    }
+
+    #main4 {
+        height: max-content;
+    }
+
+    .in5 {
+        width: 100%;
+    }
+
+    .slider2 {
+        width: 50%;
+        height: auto;
+        align-items: center;
+    }
+
+    .slider3 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: max-content;
+    }
+
+    .slider3 h4, .slider2 h4 {
+        text-align: center;
+    }
+    .in10{
+        width: 100%;
+        margin: 2%;
+    }
+    #main12{
+        height: max-content;
+        padding: 20px 0;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .in12{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    #main2 {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .slider2 {
+        width: 100%;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .slider2 h4 {
+        text-align: center;
+    }
+
+    .slider3 h4 {
+        text-align: center;
+    }
+
+    #main7 {
+        width: 100%;
+    }
+
+    .img1in7 {
+        display: none;
+    }
+
+    .img2in7 {
+        display: flex;
+    }
+    
+}

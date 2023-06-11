@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head>
+        <style>
+            .container {
+                width: 80%;
+                border: 1px solid black;
+                height: 80vh;
+                overflow: hidden;
+            }
+
+            .slider {
+                width: 200%;
+                height: 90vh;
+                background-color: red;
+                transition: all 1s;
+            }
+
+            .sld {
+                width: 25%;
+                height: 100%;
+                float: left;
+                border: 1px solid yellow;
+                box-sizing: border-box;
+                background-color: green;
+            }
+
+            .sld1 {
+                background-color: pink;
+            }
+
+            #btn1:checked~.container .slider {
+                margin-left: -50%;
+            }
+
+            #btn2:checked~.container .slider {
+                margin-left: -100%;
+            }
+            
+        </style>
+    </head>
+
+<body>
+    <input type="radio" name="gender" id="btn0" checked>
+    <input type="radio" name="gender" id="btn1">
+    <input type="radio" name="gender" id="btn2">
+    <div class="container">
+
+        <div class="slider">
+            <div class="sld sld0">1111</div>
+            <div class="sld sld1">2222</div>
+            <div class="sld sld2">3333</div>
+            <div class="sld sld3">4444</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
